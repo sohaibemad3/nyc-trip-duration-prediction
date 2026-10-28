@@ -1,0 +1,15 @@
+{
+  "model_path": "models/ridge_model.joblib",
+  "split": "test",
+  "record_count": 226182,
+  "metrics": {
+    "r2": 0.6341895309817831,
+    "rmse": 0.47683374273902795,
+    "rmsle": 0.47683374273902795,
+    "mae_log": 0.32683069253754515,
+    "raw_mae_sec": 350.1297004949149,
+    "raw_rmse_sec": 5088.468002655783,
+    "raw_mae_min": 5.835495008248582,
+    "raw_rmse_min": 84.80780004426305
+  }
+}

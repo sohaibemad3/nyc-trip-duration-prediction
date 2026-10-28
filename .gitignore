@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / PDM / pycache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Large datasets & raw data (DO NOT commit large CSV files)
+*.csv
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model weights & large binaries (keep git repository lightweight)
+*.pkl
+*.joblib
+*.model
+*.bin
+*.tar.gz
+*.zip
+models/*
+!models/.gitkeep
+
+# Environment and secrets
+.env
+.env.*
+*.secret
+
+# Logs & test caches
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
